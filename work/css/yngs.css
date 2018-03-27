@@ -1,0 +1,51 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+/*去除掉整体网页的内外边距*/
+
+.middle{
+	width: 1100px;
+	height: auto;
+	background: white;
+	padding: 20px;
+	border-top:2px dashed darkgray ;
+	margin: 0 auto;
+	
+}
+.content{
+	width: 850px;
+	height: 400px;
+	margin-left: 100px;
+	margin-top: 30px;
+	border: 1px solid darkgray;
+	/*设置边框阴影效果: x轴  y轴  阴影大小  阴影颜色*/
+	box-shadow: 0px 4px 5px #A9A9A9;
+	background: whitesmoke;
+}
+.title-1{
+	style="font-family: '黑体';
+	font-size: 20px;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+.image{
+	width: 320px;
+	height: 260px;
+	margin-top: 40px;
+	margin-left: 10px;
+	display: inline-block;
+	z-index: 1000;
+}
+.article{
+	width: 490px;
+	font-size: 13px;
+	margin-left: 320px;
+	margin-right: 20px;
+	margin-left:350px;
+	line-height: 30px;
+	color:gray;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: -280px;	
+}

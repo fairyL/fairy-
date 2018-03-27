@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>欢迎登陆</title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/Registration_interface_Style.css" />
+	<link rel="icon" href="img/tittle_logo.ico" type="img/x-ico" />
+	<script src="js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/Registration_interface_js.js" type="text/javascript" charset="utf-8"></script>
+
+	<body>
+		<!--背景图片-->
+		<div id="formbackground">
+			<img src="img/background.jpg" height="100%" width="100%" />
+		</div>
+		<!--头部-->
+		<div class="header"></div>
+		<!--内容部分-->
+		<div class="content">
+			<div class="content_interface">
+				<div id="interface">
+					<!--注册登录界面头部-->
+					<form action="#" method="post">
+						<div class="interface_header">
+							<!--左边-->
+							<div class="interface_header_left">
+								<div onclick="dl()" class="interface_header_text">
+									<a href="#">用户登录</a>
+								</div>
+							</div>
+							<!--右边-->
+							<div onclick="zc()" class="interface_header_right">
+								<div class="interface_header_text">
+									<a href="#">快速注册</a>
+								</div>
+							</div>
+						</div>
+						<!--用户登录部分-->
+						<div id="interface_middle">
+							<div class="interface_middle_left">
+								<div class="userPicture">
+									<img src="img/userPicture.png" height="70" width="70" style="margin-left: 23px;margin-top:20px ;" />
+								</div>
+							</div>
+							<div class="interface_middle_right">
+
+								<div class="login">
+									<div class="userName">
+										<input type="text" name="userName" placeholder="用户名/手机号/邮箱" />
+									</div>
+									<div class="userPass">
+										<input type="password" name="userName" placeholder="密码" />
+									</div>
+								</div>
+
+							</div>
+							<input class="submit" type="submit" value="登录" />
+							<div class="qq-weixin qq"><img src="img/QQ.png" height="100%" width="100%" /></div>
+							<div class="qq-weixin"><img src="img/WEIXIN.png" height="100%" width="100%" /></div>
+							<div class="renturn">
+								<a href="index.html" id="renturn">返回首页</a>
+							</div>
+						</div>
+					</form>
+
+					<!--快速注册部分-->
+					<form action="#" method="post">
+						<div id="login_middle">
+							<div class="register">
+								用&nbsp;&nbsp;&nbsp;户： <input type="text" name="userName" id="userName" placeholder="用户名" /> 密&nbsp;&nbsp;&nbsp;码： <input type="password" name="userPassword" id="userPassword" placeholder="密码" /> 邮&nbsp;&nbsp;&nbsp;箱： <input type="email" name="userEmail" id="userEmail" placeholder="邮箱" /> 电&nbsp;&nbsp;&nbsp;话： <input type="tel" name="tel" id="tel" placeholder="手机号" />
+								<input class="login_register" type="submit" value="立即注册" />
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		</div>
+	</body>
+
+</html>

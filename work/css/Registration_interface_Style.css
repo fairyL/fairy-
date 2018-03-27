@@ -1,0 +1,190 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/*背景图片属性设置*/
+
+#formbackground {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	min-width: 1898px;
+	min-height: 1080px;
+	background-color: #F3F0E9;
+}
+/*界面头部*/
+.header {
+	width: 100%;
+	height: 150px;
+	float: left;
+	min-width: 1898px;
+}
+/*界面主体部分*/
+.content {
+	width: 100%;
+	height: 470px;
+	float: left;
+	min-width: 1898px;
+}
+
+.content_interface {
+	width: 500px;
+	height: 470px;
+	margin: 0 auto;
+}
+/*注册登录界面主体部分*/
+#interface{
+	width: 440px;
+	height: 470px;
+	margin-left: 50px;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+.interface_header{
+	width: 100%;
+	height: 80px;
+	border-bottom: 2px solid black;
+}
+.interface_header a{
+	text-decoration: none;
+	color: black;
+}
+.interface_header a:hover{
+	color: red;
+}
+.interface_header_text{
+	font-size: 30px;
+	text-align: center;
+	line-height: 80px;
+}
+.interface_header_left{
+	width: 217px;
+	height: 100%;
+	border-right: 2px solid black;
+	float: left;
+}
+.interface_header_right{
+	width: 217px;
+	height: 100%;
+	float: right;
+}
+#interface_middle{
+	width: 436px;
+	height: 370px;
+	float: left;
+}
+#login_middle{
+	width: 436px;
+	height: 370px;
+	float: left;
+	display:none;
+}
+.register{
+	width: 300px;
+	height: 370px;
+	margin: 0 auto;
+	font-size: 20px;
+}
+.register input{
+	margin-top: 30px;
+}
+#userName{
+	margin-top: 60px;
+}
+.login_register{
+	width: 200px;
+	height: 30px;
+	border: 1px solid black;
+	background-color: #F3F0E9;
+	float: left;
+	margin-left: 50px;
+	color: black;
+	text-align: center;
+	font-size: 20px;
+	letter-spacing: 15px;
+}
+.interface_middle_left{
+	width: 150px;
+	height: 250px;
+	float: left;
+	margin-top: 25px;
+	
+}
+.userPicture{
+	width: 120px;
+	height: 120px;
+	margin-left: 25px;
+	margin-top: 75px;
+	border-radius: 50%;
+	border: 2px solid black;
+}
+.userPicture:hover{
+	border: 2px solid red;
+}
+.interface_middle_right{
+	width: 286px;
+	height: 250px;
+	float: right;
+	margin-top: 25px;
+}
+.login{
+	width: 286px;
+	height: 150px;
+	float: right;
+	margin-top: 50px;
+}
+input{
+	font-size: 16px;
+	outline: none;
+}
+
+.userName{
+	margin-top: 40px;
+	margin-left: 40px;
+	float: left;
+}
+.userPass{
+	margin-top: 25px;
+	margin-left: 40px;
+	float: left
+}
+.submit{
+	width: 300px;
+	height: 30px;
+	border: 1px solid black;
+	background-color: #F3F0E9;
+	float: left;
+	margin-left: 68px;
+	color: black;
+	text-align: center;
+	font-size: 20px;
+	letter-spacing: 15px;
+	margin-top: -30px;
+}
+.qq-weixin{
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+.qq{
+	margin-left: 60px;
+}
+.renturn{
+	float: right;
+	margin-right: 50px;
+	margin-top: 30px;
+}
+#renturn{
+	font-size: 14px;
+	color: black;
+	text-decoration: none;
+	
+}
+#renturn:hover{
+	color: red;
+}

@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="zh">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>jQuery带视差切换效果幻灯片代码</title>
+
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/pignose.parallaxslider.min.css" />
+
+	</head>
+
+	<body>
+		<div id="wrapper">
+			<div id="visual">
+				<div class="slide-visual">
+					<!-- Slide Image Area (1000 x 424) -->
+					<ul class="slide-group">
+						<li><img src="img/81.jpg" alt="slide image" /></li>
+						<li><img src="img/82.jpg" alt="slide image" /></li>
+						<li><img src="img/83.jpg" alt="slide image" /></li>
+						<li><img src="img/84.jpg" alt="slide image" /></li>
+						<li><img src="img/85.jpg" alt="slide image" /></li>
+						<li><img src="img/86.jpg" alt="slide image" /></li>
+					</ul>
+
+					<!-- Slide Description Image Area (316 x 328) -->
+					<div class="script-wrap">
+						<ul class="script-group">
+							<li>
+								<div class="inner-script"><img src="img/81-1.jpg" alt="thumbnail slider image" /></div>
+							</li>
+							<li>
+								<div class="inner-script"><img src="img/82-1.jpg" alt="thumbnail slider image" /></div>
+							</li>
+							<li>
+								<div class="inner-script"><img src="img/83-1.jpg" alt="thumbnail slider image" /></div>
+							</li>
+							<li>
+								<div class="inner-script"><img src="img/84-1.jpg" alt="thumbnail slider image" /></div>
+							</li>
+							<li>
+								<div class="inner-script"><img src="img/85-1.jpg" alt="thumbnail slider image" /></div>
+							</li>
+							<li>
+								<div class="inner-script"><img src="img/86-1.jpg" alt="thumbnail slider image" /></div>
+							</li>
+						</ul>
+						<div class="slide-controller">
+							<a href="#" class="btn-prev"><img src="img/btn_prev.png" alt="prev slide" /></a>
+							<a href="#" class="btn-play"><img src="img/btn_play.png" alt="start slide" /></a>
+							<a href="#" class="btn-pause"><img src="img/btn_pause.png" alt="pause slide" /></a>
+							<a href="#" class="btn-next"><img src="img/btn_next.png" alt="next slide" /></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="http://www.jq22.com/jquery/1.11.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/pignose.parallaxslider.min.js"></script>
+		<script type="text/javascript">
+			$(window).load(function() {
+				$('#visual').pignoseParallaxSlider({
+					play: '.btn-play',
+					pause: '.btn-pause',
+					next: '.btn-next',
+					prev: '.btn-prev'
+				});
+			});
+		</script>
+
+	</body>
+
+</html>

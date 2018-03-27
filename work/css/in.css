@@ -1,0 +1,67 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+/*去除掉整体网页的内外边距*/
+.banner{
+	width: 100%;
+	height: 400px;
+	/*background-color: red;*/
+	margin-top: 180px;
+}
+.main{
+	width: 100%;
+	height: 400px;
+	/*background-color: red;*/
+	margin-top: 40px;
+	
+}
+
+.main-text{
+	width: 1098px;
+	height: 398px;
+	margin: 0 auto;
+	/*background-color: red;*/
+}
+.title-text{
+	
+	width: 1098px;
+	height: 50px;
+	background-color: #f14e4c;
+	margin-top: 70px;
+}
+.hanfu{
+	margin-left:20px;
+	font-size: 20px;
+	color: white;
+	font-family: simsun;
+	line-height: 50px;
+}
+
+.title-text2{
+	width: 1098px;
+	height: 260px;
+	margin-top: 20px;
+	/*background-color: blue;*/
+}
+.title-text4{
+	width: 1098px;
+	height: 100px;
+	margin-top: 20px;
+}
+.title-text3{
+	margin-top: 50px;
+	width: 1098px;
+	height: 50px;
+	background-color: #f14e4c;
+	
+}
+.title-text2 p{
+	line-height: 30px;
+}
+#login_go{
+	position:fixed;
+	margin-right: 0px;
+	width: auto;
+	height: 50px;
+}

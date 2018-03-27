@@ -1,0 +1,25 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+/*去除掉整体网页的内外边距*/
+
+.main{
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 150px;
+}
+.box{
+	padding: 15px 7px 0 7px;
+	float: left;
+}
+.pic{
+	border: 1px solid #dddddd;
+}
+.pic img{
+	width:350px;
+	padding: 12px;
+}
+.pic:hover{
+	box-shadow:  2px 4px 6px #000;
+}
